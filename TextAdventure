@@ -9,7 +9,9 @@ public class TextAdventure {
 
 
 		//Game variables
-		String[] enemies = { "Skeleton", "Zombie", "Warrior", "Assassin" };
+		String[] enemies = { "Skeleton", "Zombie", "Warrior", "Assassin", "murloc" };
+		String[] Bosses = {"Satan", "Undead King", "Warrior King" };
+		int maxBossHealth = 150;
 		int maxEnemyHealth = 75;
 		int enemyAttackDamage = 25;
 
